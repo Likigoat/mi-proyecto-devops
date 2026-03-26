@@ -27,3 +27,8 @@ mi-proyecto-devops/
 - git push
 - git pull
 - git checkout -b
+
+## Cambios realizados en la Actividad 3
+- Se agregaron nuevas secciones de contenido
+- Se mejoraron estilos y estructura
+- Se trabajó de forma colaborativa con ramas
