@@ -1,3 +1,4 @@
+import html
 import os
 import sys
 
@@ -17,5 +18,22 @@ if errors:
     for error in errors:
         print("-", error)
     sys.exit(1)
+    
+with open("src/index.html", "r", encoding="utf-8") as f:
+    html_content = f.read()
+
+if html_content.count("<p>") < 1:
+    errors.append("index.html debe contener al menos un párrafo")
+    
+if html_content.count("<h1>") < 1:
+    errors.append("index.html debe contener al menos un encabezado <h1>")
+
+if errors:
+    print("Errores encontrados:")
+    for error in errors:
+        print("-", error)
+    sys.exit(1)
+
 else:
     print("Proyecto validado correctamente")
+
