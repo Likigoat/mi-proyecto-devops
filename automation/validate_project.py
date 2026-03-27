@@ -34,6 +34,12 @@ if errors:
         print("-", error)
     sys.exit(1)
 
+with open("src/styles.css", "r") as file:
+    css = file.read()
+
+if css.count("{") < 2:
+    errors.append("styles.css debe contener al menos dos reglas CSS")
+
 else:
     print("Proyecto validado correctamente")
 
