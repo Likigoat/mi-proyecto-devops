@@ -34,3 +34,9 @@ mi-proyecto-devops/
 - Se trabajó de forma colaborativa con ramas
 
 ## Validación CI funcionando
+
+## intervencion externa (Actividad 5B)
+-equipo visitante: equipo 7
+-observacion general del proyecto
+1. el proyecto es solido y simple
+2. el index es
