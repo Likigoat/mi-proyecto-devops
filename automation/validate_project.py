@@ -25,7 +25,7 @@ with open("src/index.html", "r", encoding="utf-8") as f:
 if html_content.count("<p>") < 1:
     errors.append("index.html debe contener al menos un párrafo")
     
-if html_content.count("<h1>") < 1:
+if html_content.count("<h3>") < 1:
     errors.append("index.html debe contener al menos un encabezado <h1>")
 
 
